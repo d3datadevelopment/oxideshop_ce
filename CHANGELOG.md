@@ -24,6 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Update symfony components to version 5
 - Change translations loading source for themes to be same as for core and modules
 - Move hash service from `\OxidEsales\EshopCommunity\Internal\Authentication\` to `\OxidEsales\EshopCommunity\Internal\Utility\Hash`
+- Email validation service moved to Utility `OxidEsales\EshopCommunity\Internal\Utility\Email\EmailValidationService`
 
 ### Deprecated
 - `\OxidEsales\EshopCommunity\Core\Controller\BaseController::getConfig`
