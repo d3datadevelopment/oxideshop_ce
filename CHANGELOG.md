@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Removed multilines in translation files to make it fit for localization platforms [PR-729](https://github.com/OXID-eSales/oxideshop_ce/pull/729)
 - Update symfony components to version 5
 - Change translations loading source for themes to be same as for core and modules
+- Move hash service from `\OxidEsales\EshopCommunity\Internal\Authentication\` to `\OxidEsales\EshopCommunity\Internal\Utility\Hash`
 
 ### Deprecated
 - `\OxidEsales\EshopCommunity\Core\Controller\BaseController::getConfig`
@@ -165,6 +166,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
         - `SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE`
         - `HELP_SHOP_CONFIG_ALLOW_SUGGEST_ARTICLE`
     - Config option (usage): `blAllowSuggestArticle`
+- `OxidEsales\EshopCommunity\Internal\Domain\Authentication\Exception\UnavailablePasswordHashException`
+
 ### Fixed
 - Fix not working actions and promotions [#0005526](https://bugs.oxid-esales.com/view.php?id=5526)
 - Refactor calls to deprecated `getStr` [PR-758](https://github.com/OXID-eSales/oxideshop_ce/pull/758)
