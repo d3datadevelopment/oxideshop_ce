@@ -4,6 +4,48 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [6.5.6] - unreleased
+
+### Deprecated
+- News feature:
+    - Classes:
+        - `Application/Component/NewsComponent`
+        - `Application/Controller/NewsController`
+        - `Application/Controller/Admin/AdminNews`
+        - `Application/Controller/Admin/NewsList`
+        - `Application/Controller/Admin/NewsMain`
+        - `Application/Controller/Admin/NewsMainAjax`
+        - `Application/Controller/Admin/NewsText`
+        - `Application/Model/News`
+        - `Application/Model/NewsList`
+    - Config options:
+        - `blFooterShowNews`
+        - `sCntOfNewsLoaded`
+        - `bl_perfLoadNews`
+        - `bl_perfLoadNewsOnlyStart`
+    - Language Constants:
+        - `LATEST_NEWS_AND_UPDATES_AT`
+        - `LATEST_NEWS_NOACTIVENEWS`
+        - `NEWS`
+        - `PAGE_TITLE_NEWS`
+        - `NEWS_LIST_TITLE`
+        - `NEWS_LIST_SHORTTEXT`
+        - `NEWS_LIST_MENUITEM`
+        - `NEWS_LIST_MENUSUBITEM`
+        - `NEWS_MAIN_SHORTDESC`
+        - `NEWS_MAIN_SHOWFORGROUP`
+        - `NEWS_MAIN_NOTSHOWFORGROUP`
+        - `ORDER_REMARK_NEWS`
+        - `SHOP_MALL_MALLINHERIT_OXNEWS`
+        - `USER_REMARK_NEWS`
+        - `SHOP_CONFIG_CNTOFNEWS`
+        - `SHOP_PERF_LOADNEWS`
+        - `SHOP_PERF_LOADNEWSONLYSTART`
+        - `mxnews`
+        - `tbclnews_main`
+        - `tbclnews_text`
+        - `tbclnews_mall`
+
 ## [6.5.5] - 2020-05-05
 
 ### Deprecated
@@ -838,6 +880,8 @@ See
 - [OXID eShop v6.0.0 Beta1: Overview of Changes](https://oxidforge.org/en/oxid-eshop-v6-0-0-beta1-overview-of-changes.html)
 - [OXID eShop v6.0.0 Beta1: Detailed Code Changelog](https://oxidforge.org/en/oxid-eshop-v6-0-0-beta1-detailed-code-changelog.html)
 
+[6.5.6]: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.5...v6.5.6
+[6.5.5]: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.4...v6.5.5
 [6.5.4]: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.3...v6.5.4
 [6.5.3]: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.2...v6.5.3
 [6.5.2]: https://github.com/OXID-eSales/oxideshop_ce/compare/v6.5.1...v6.5.2
