@@ -144,28 +144,24 @@ class Config extends \OxidEsales\Eshop\Core\Base
     protected $blNativeImages = true;
 
     /**
-     * Only for multishops
-     * Unload news from all shops in multishop.
-     * If $blOtherShopNews is set to true the multishop does not load news from all shops,
-     * This is applicable for depending on mall
-     * if mall mode is available.
-     *
-     * @var bool
-     */
-    protected $blDoNotLoadAllShopNews = true;
-
-    /**
      * Names of tables which are multi-shop
-     *
      * @var array
      */
-    protected $aMultiShopTables = ['oxarticles', 'oxdiscount', 'oxcategories', 'oxattribute',
-                                        'oxlinks', 'oxvoucherseries', 'oxmanufacturers',
-                                        // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-                                        'oxnews',
-                                        // END deprecated
-                                        'oxselectlist', 'oxwrapping',
-                                        'oxdeliveryset', 'oxdelivery', 'oxvendor', 'oxobject2category'];
+    protected $aMultiShopTables = [
+        'oxarticles',
+        'oxdiscount',
+        'oxcategories',
+        'oxattribute',
+        'oxlinks',
+        'oxvoucherseries',
+        'oxmanufacturers',
+        'oxselectlist',
+        'oxwrapping',
+        'oxdeliveryset',
+        'oxdelivery',
+        'oxvendor',
+        'oxobject2category',
+    ];
 
     /**
      * Application starter instance

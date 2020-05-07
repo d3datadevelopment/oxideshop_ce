@@ -86,7 +86,6 @@ INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`
 ('62642dfaa1d88b1b2.94593071',	1,	'',	'sZoomImageSize',	'str',	'450*450'),
 ('6310aac9c4e28925ff4a38707b19c929',	1,	'theme:flow',	'sShippingDaysOnStock',	'str',	'3'),
 ('67a23d187f8e82d1ff5740b8ad970cba',	1,	'theme:flow',	'sShippingDaysNotOnStock',	'str',	'5'),
-('6da42abf915b5f290.70877375',	1,	'',	'sCntOfNewsLoaded',	'str',	'1'),
 ('6de0ee4a3241ffd92e0a3c2b5752829c',	1,	'theme:flow',	'blShowListDisplayType',	'bool',	'1'),
 ('6ec4235c2aa997942.70260123',	1,	'',	'blWarnOnSameArtNums',	'bool',	'1'),
 ('6ec4235c2aaa45d77.87437919',	1,	'',	'sIconsize',	'str',	'56*42'),
@@ -114,8 +113,6 @@ INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`
 ('79e417a442934fcb9.11733184',	1,	'',	'bl_perfLoadCatTree',	'bool',	'1'),
 ('79e417a45558d97f6.76133435',	1,	'',	'bl_perfLoadCurrency',	'bool',	'1'),
 ('79e417a45558e7851.36128674',	1,	'',	'bl_perfLoadLanguages',	'bool',	'1'),
-('79e417a45558f1b86.05956285',	1,	'',	'bl_perfLoadNews',	'bool',	'1'),
-('79e417a466086f390.29565974',	1,	'',	'bl_perfLoadNewsOnlyStart',	'bool',	'1'),
 ('79e417a4eaad1a593.54850808',	1,	'',	'blStoreIPs',	'bool',	''),
 ('7a59f9000f39e5d9549a5d1e29c076a0',	1,	'',	'blUseMultidimensionVariants',	'bool',	'1'),
 ('7a59f9000f39e5d9549a5d1e29c076a2',	1,	'',	'blOrderOptInEmail',	'bool',	'1'),
@@ -185,7 +182,6 @@ INSERT INTO `oxconfig` (`OXID`, `OXSHOPID`, `OXMODULE`, `OXVARNAME`, `OXVARTYPE`
 ('b29180270d4e15a5efc6681ee2a22119',	1,	'theme:flow',	'sBackgroundRepeat',	'select',	'no-repeat'),
 ('b2b400dd011bf6273.08965005',	1,	'',	'blVariantsSelection',	'bool',	''),
 ('b42573c6d0627597fdb7c6f3bfeca7f2',	1,	'theme:flow',	'sLogoWidth',	'str',	'200'),
-('b61df7ee844f44bb4b55acafbaa5ccf8',	1,	'theme:flow',	'blFooterShowNews',	'bool',	'1'),
 ('b76a020b0d4e1decd30803915bfb5c64',	1,	'theme:flow',	'sFaviconFile',	'str',	'favicon.ico'),
 ('b7f9bb15adb82da4d61abd94e44ee1ff',	1,	'theme:flow',	'sLogoHeight',	'str',	'38'),
 ('bd320d322fa2f638086787c512329eec',	1,	'',	'dPointsForRegistration',	'str',	'10'),
@@ -287,8 +283,7 @@ INSERT INTO `oxconfigdisplay` (`OXID`, `OXCFGMODULE`, `OXCFGVARNAME`, `OXGROUPIN
 ('e676ec37632a4e1b1d30cc839c06614f', 'theme:flow', 'blFooterShowLinks', 'footer', '', 2),
 ('0cd598f56d0a74e8c4e4d75a961960f4', 'theme:flow', 'blFooterShowNewsletter', 'footer', '', 4),
 ('8838d89730016811eab0e0e5d71c52d1', 'theme:flow', 'blFooterShowNewsletterForm', 'footer', '', 5),
-('c9ef60e5f343d3cdf0747f33cb942624', 'theme:flow', 'blEmailsShowProductPictures', 'emails', '', 1),
-('e0fb9345d9a85a86e62d485bfc354432', 'theme:flow', 'blFooterShowNews', 'footer', '', 6);
+('c9ef60e5f343d3cdf0747f33cb942624', 'theme:flow', 'blEmailsShowProductPictures', 'emails', '', 1);
 
 
 INSERT INTO `oxcontents` (`OXID`, `OXLOADID`, `OXSHOPID`, `OXSNIPPET`, `OXTYPE`, `OXACTIVE`, `OXACTIVE_1`, `OXPOSITION`, `OXTITLE`, `OXCONTENT`, `OXTITLE_1`, `OXCONTENT_1`, `OXACTIVE_2`, `OXTITLE_2`, `OXCONTENT_2`, `OXACTIVE_3`, `OXTITLE_3`, `OXCONTENT_3`, `OXCATID`, `OXFOLDER`, `OXTERMVERSION`) VALUES

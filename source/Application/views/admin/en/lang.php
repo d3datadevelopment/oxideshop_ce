@@ -769,15 +769,6 @@ $aLang = [
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Page',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s is available.',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'NEWS_LIST_TITLE'                                => '[OXID News Administration]',
-    'NEWS_LIST_SHORTTEXT'                            => 'Title',
-    'NEWS_LIST_MENUITEM'                             => 'Customer Information',
-    'NEWS_LIST_MENUSUBITEM'                          => 'News',
-    'NEWS_MAIN_SHORTDESC'                            => 'Title',
-    'NEWS_MAIN_SHOWFORGROUP'                         => 'Visible for User Group',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Invisible for User Group',
-    // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favorites',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ edit ]',
     'FAVORITES_DESC'                                 => 'favorites description ...',
@@ -1013,9 +1004,6 @@ $aLang = [
     'SHOP_MALL_MALLINHERIT_OXDISCOUNT'                   => 'Inherit all <b>discounts</b> from parent shop',
     'SHOP_MALL_MALLINHERIT_OXLINKS'                      => 'Inherit all <b>shop links</b> from parent shop',
     'SHOP_MALL_MALLINHERIT_OXVOUCHERSERIES'              => 'Inherit all <b>coupon series</b> from parent shop',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_MALL_MALLINHERIT_OXNEWS'                       => 'Inherit <b>shop news</b> from parent shop',
-    // END deprecated
     'SHOP_MALL_MALLINHERIT_OXSELECTLIST'                 => 'Inherit all <b>select lists</b> from parent shop',
     'SHOP_MALL_MALLINHERIT_OXVENDOR'                     => 'Inherit all <b>distributors</b> from parent shop',
     'SHOP_MALL_MALLINHERIT_OXMANUFACTURER'               => 'Inherit all <b>manufacturers</b> from parent shop',
@@ -1082,9 +1070,6 @@ $aLang = [
     'SHOP_CONFIG_CALCULATEVATOFORPAYCHARGE'                   => 'Display VAT contained in Payment Method Charges in Shopping Cart and Invoice',
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Enter Payment Method Charges as net Price (plus VAT)',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'CMS Page Folders',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Number of News which are displayed in the News Box',
-    // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Date Format in eShop Admin',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Calculate default Shipping costs when User is not logged in yet',
     'SHOP_CONFIG_DEFAULTVAT'                                  => 'Default VAT for all Products',
@@ -1461,10 +1446,6 @@ $aLang = [
     'SHOP_PERF_LOADCATTREE'                   => 'Load Categories and display Category Navigation',
     'SHOP_PERF_LOADCURRENCY'                  => 'Display Currencies',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Display Languages',
-    'SHOP_PERF_LOADNEWS'                      => 'Load News',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Load News only on Start Page',
-    // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Load Variants in Lists (Search Results, Categories). This uses much Memory and may cause Performance Problems on small Servers',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Load and display Manufacturer List',
     'SHOP_PERF_NEWESTARTICLES'                => 'List of newest Products (Just arrived!)',
@@ -1527,7 +1508,6 @@ $aLang = [
     'mxlist'                   => 'List All Users',
     'mxmanageprod'             => 'Administer Products',
     'mxmainmenu'               => 'Master Settings',
-    'mxnews'                   => 'News',
     'mxorders'                 => 'Administer Orders',
     'mxpaymeth'                => 'Payment Methods',
     'mxpricealarm'             => 'Price Alert',
@@ -1573,7 +1553,6 @@ $aLang = [
     'tbcldeliveryset_mall'     => 'Mall',
     'tbcldiscount_mall'        => 'Mall',
     'tbclmanufacturer_mall'    => 'Mall',
-    'tbclnews_mall'            => 'Mall',
     'tbclvendor_mall'          => 'Mall',
     'tbclselectlist_mall'      => 'Mall',
     'tbclvoucherserie_mall'    => 'Mall',
@@ -1632,9 +1611,6 @@ $aLang = [
     'tbcldiscount_users'       => 'Users',
     //languages
     'tbcllanguage_main'        => 'Main',
-    //  news_list',
-    'tbclnews_main'            => 'Main',
-    'tbclnews_text'            => 'Text',
     //  order_list',
     'tbclorder_overview'       => 'Overview',
     'tbclorder_main'           => 'Main',
