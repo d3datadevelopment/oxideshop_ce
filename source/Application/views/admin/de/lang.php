@@ -420,8 +420,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'Hersteller-Artikelnummer (MPN)',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Hersteller',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'Dieser Preis wird an Varianten des Artikels vererbt.' .
-                                                   '<ul><li>Abhängig von den Shopeinstellungen wird der Netto- oder der Bruttopreis eingegeben/angezeigt.</li>' .
-                                                   '<li>In Klammern steht immer der Bruttopreis.</li></ul>',
+        '<ul><li>Abhängig von den Shopeinstellungen wird der Netto- oder der Bruttopreis eingegeben/angezeigt.</li>' .
+        '<li>In Klammern steht immer der Bruttopreis.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Art. erstellt am',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Letzte Änderung am',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Verkaufsrang Position ',
@@ -765,15 +765,6 @@ $aLang = [
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Seite',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s ist verfügbar!',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'NEWS_LIST_TITLE'                                => '[OXID Newsverwaltung]',
-    'NEWS_LIST_SHORTTEXT'                            => 'Titel',
-    'NEWS_LIST_MENUITEM'                             => 'Kundeninformation',
-    'NEWS_LIST_MENUSUBITEM'                          => 'Nachrichten',
-    'NEWS_MAIN_SHORTDESC'                            => 'Titel',
-    'NEWS_MAIN_SHOWFORGROUP'                         => 'Sichtbar für Benutzergruppe',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Nicht sichtbar für Benutzergruppe',
-    // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favoriten',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ändern]',
     'FAVORITES_DESC'                                 => 'Beschreibung der Favoriten ...',

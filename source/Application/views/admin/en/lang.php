@@ -424,8 +424,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'MPN',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Manufacturer',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'This price is inherited to product\'s variants.' .
-                                                   '<ul><li>Depending on the shop settings net price or gross price is input/shown.</li>' .
-                                                   '<li>Gross price is always shown in parentheses.</li></ul>',
+        '<ul><li>Depending on the shop settings net price or gross price is input/shown.</li>' .
+        '<li>Gross price is always shown in parentheses.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Product created on',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Last Modification on',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Position Sales Rating ',
@@ -769,15 +769,6 @@ $aLang = [
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Page',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s is available.',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'NEWS_LIST_TITLE'                                => '[OXID News Administration]',
-    'NEWS_LIST_SHORTTEXT'                            => 'Title',
-    'NEWS_LIST_MENUITEM'                             => 'Customer Information',
-    'NEWS_LIST_MENUSUBITEM'                          => 'News',
-    'NEWS_MAIN_SHORTDESC'                            => 'Title',
-    'NEWS_MAIN_SHOWFORGROUP'                         => 'Visible for User Group',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Invisible for User Group',
-    // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favorites',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ edit ]',
     'FAVORITES_DESC'                                 => 'favorites description ...',
