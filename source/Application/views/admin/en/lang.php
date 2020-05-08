@@ -1073,9 +1073,6 @@ $aLang = [
     'SHOP_CONFIG_CALCULATEVATOFORPAYCHARGE'                   => 'Display VAT contained in Payment Method Charges in Shopping Cart and Invoice',
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Enter Payment Method Charges as net Price (plus VAT)',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'CMS Page Folders',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Number of News which are displayed in the News Box',
-    // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Date Format in eShop Admin',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Calculate default Shipping costs when User is not logged in yet',
     'SHOP_CONFIG_DEFAULTVAT'                                  => 'Default VAT for all Products',
@@ -1452,10 +1449,6 @@ $aLang = [
     'SHOP_PERF_LOADCATTREE'                   => 'Load Categories and display Category Navigation',
     'SHOP_PERF_LOADCURRENCY'                  => 'Display Currencies',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Display Languages',
-    'SHOP_PERF_LOADNEWS'                      => 'Load News',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Load News only on Start Page',
-    // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Load Variants in Lists (Search Results, Categories). This uses much Memory and may cause Performance Problems on small Servers',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Load and display Manufacturer List',
     'SHOP_PERF_NEWESTARTICLES'                => 'List of newest Products (Just arrived!)',
@@ -1518,7 +1511,6 @@ $aLang = [
     'mxlist'                   => 'List All Users',
     'mxmanageprod'             => 'Administer Products',
     'mxmainmenu'               => 'Master Settings',
-    'mxnews'                   => 'News',
     'mxorders'                 => 'Administer Orders',
     'mxpaymeth'                => 'Payment Methods',
     'mxpricealarm'             => 'Price Alert',
