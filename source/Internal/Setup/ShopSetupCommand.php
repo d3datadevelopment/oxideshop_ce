@@ -11,7 +11,7 @@ namespace OxidEsales\EshopCommunity\Internal\Setup;
 
 use OxidEsales\EshopCommunity\Internal\Setup\ConfigFile\ConfigFileDaoInterface;
 use OxidEsales\EshopCommunity\Internal\Setup\Database\Service\DatabaseInstallerInterface;
-use OxidEsales\EshopCommunity\Internal\Setup\Directory\Service\DirectoryServiceInterface;
+use OxidEsales\EshopCommunity\Internal\Setup\Directory\Service\DirectoryValidatorInterface;
 use OxidEsales\EshopCommunity\Internal\Setup\Htaccess\HtaccessUpdateServiceInterface;
 use OxidEsales\EshopCommunity\Internal\Setup\Language\DefaultLanguage;
 use OxidEsales\EshopCommunity\Internal\Setup\Language\LanguageInstallerInterface;
@@ -33,7 +33,7 @@ class ShopSetupCommand extends Command
     private $configFileDao;
 
     /**
-     * @var DirectoryServiceInterface
+     * @var DirectoryValidatorInterface
      */
     private $directoriesValidator;
 
@@ -50,7 +50,7 @@ class ShopSetupCommand extends Command
     public function __construct(
         DatabaseInstallerInterface $databaseInstaller,
         ConfigFileDaoInterface $configFileDao,
-        DirectoryServiceInterface $directoriesValidator,
+        DirectoryValidatorInterface $directoriesValidator,
         LanguageInstallerInterface $languageInstaller,
         HtaccessUpdateServiceInterface $htaccessUpdateService
     ) {
@@ -79,11 +79,19 @@ class ShopSetupCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $language = new DefaultLanguage($input->getArgument('language'));
+        $output->writeln('<info>Validating input...</info>');
+        $this->validateInput($input);
 
+        $output->writeln('<info>Checking config file...</info>');
+
+        $output->writeln('<info>Installing database data...</info>');
         $this->installDatabase($input);
-        $this->languageInstaller->install($language);
+        $this->languageInstaller->install($this->getLanguage($input));
+
+        $output->writeln('<info>Updating config file...</info>');
         $this->updateConfigFile($input);
+
+        $output->writeln('<info>Creating administrator account...</info>');
 
         return 0;
     }
@@ -104,5 +112,19 @@ class ShopSetupCommand extends Command
         $this->configFileDao->replacePlaceholder('sShopURL', $input->getArgument('shop-url'));
         $this->configFileDao->replacePlaceholder('sShopDir', $input->getArgument('shop-directory'));
         $this->configFileDao->replacePlaceholder('sCompileDir', $input->getArgument('compile-directory'));
+    }
+
+    private function getLanguage(InputInterface $input): DefaultLanguage
+    {
+        return new DefaultLanguage($input->getArgument('language'));
+    }
+
+    protected function validateInput(InputInterface $input): void
+    {
+        $this->directoriesValidator->validateDirectory(
+            $input->getArgument('shop-directory'),
+            $input->getArgument('compile-directory')
+        );
+        $this->getLanguage($input);
     }
 }
