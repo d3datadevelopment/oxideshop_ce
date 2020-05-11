@@ -424,8 +424,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'MPN',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Manufacturer',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'This price is inherited to product\'s variants.' .
-                                                   '<ul><li>Depending on the shop settings net price or gross price is input/shown.</li>' .
-                                                   '<li>Gross price is always shown in parentheses.</li></ul>',
+        '<ul><li>Depending on the shop settings net price or gross price is input/shown.</li>' .
+        '<li>Gross price is always shown in parentheses.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Product created on',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Last Modification on',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Position Sales Rating ',
