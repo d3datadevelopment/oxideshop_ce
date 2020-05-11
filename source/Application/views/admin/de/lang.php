@@ -420,8 +420,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'Hersteller-Artikelnummer (MPN)',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Hersteller',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'Dieser Preis wird an Varianten des Artikels vererbt.' .
-                                                   '<ul><li>Abhängig von den Shopeinstellungen wird der Netto- oder der Bruttopreis eingegeben/angezeigt.</li>' .
-                                                   '<li>In Klammern steht immer der Bruttopreis.</li></ul>',
+        '<ul><li>Abhängig von den Shopeinstellungen wird der Netto- oder der Bruttopreis eingegeben/angezeigt.</li>' .
+        '<li>In Klammern steht immer der Bruttopreis.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Art. erstellt am',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Letzte Änderung am',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Verkaufsrang Position ',
@@ -765,15 +765,6 @@ $aLang = [
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Seite',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s ist verfügbar!',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'NEWS_LIST_TITLE'                                => '[OXID Newsverwaltung]',
-    'NEWS_LIST_SHORTTEXT'                            => 'Titel',
-    'NEWS_LIST_MENUITEM'                             => 'Kundeninformation',
-    'NEWS_LIST_MENUSUBITEM'                          => 'Nachrichten',
-    'NEWS_MAIN_SHORTDESC'                            => 'Titel',
-    'NEWS_MAIN_SHOWFORGROUP'                         => 'Sichtbar für Benutzergruppe',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Nicht sichtbar für Benutzergruppe',
-    // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favoriten',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ändern]',
     'FAVORITES_DESC'                                 => 'Beschreibung der Favoriten ...',
@@ -1078,7 +1069,6 @@ $aLang = [
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Zahlungsarten-Gebühren als Nettopreise eingeben (zuzüglich MwSt.)',
     'SHOP_CONFIG_CALCULATEVATOFORPAYCHARGE'                   => 'Die in den Zahlungsarten-Gebühren enthaltene Mehrwertsteuer im Warenkorb und in der Rechnung anzeigen',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'Ordner für CMS-Seiten',
-    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Anzahl der Nachrichten, die in der Nachrichten-Box links angezeigt werden',
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Datumsformat im Administrationsbereich',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Versandkosten auch dann berechnen, wenn der Kunde noch nicht eingeloggt ist',
     'SHOP_CONFIG_DEFAULTVAT'                                  => 'Standard-MwSt.-Satz für alle Artikel',
@@ -1455,8 +1445,6 @@ $aLang = [
     'SHOP_PERF_LOADCATTREE'                   => 'Kategorien laden und Kategorienavigation anzeigen',
     'SHOP_PERF_LOADCURRENCY'                  => 'Währungen anzeigen',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Sprachen anzeigen',
-    'SHOP_PERF_LOADNEWS'                      => 'Nachrichten anzeigen',
-    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Nachrichten nur auf der Startseite anzeigen',
     'SHOP_PERF_LOADVARIANTS'                  => 'Varianten in Artikellisten laden (z. B. Suchergebnisse, Kategorieansichten). Diese Einstellung verbraucht viel Speicher und kann zu Problemen auf schwachen Servern führen.',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Herstellerliste laden und anzeigen',
     'SHOP_PERF_NEWESTARTICLES'                => 'Liste der neusten Artikel (Frisch eingetroffen!)',
@@ -1520,7 +1508,6 @@ $aLang = [
     'mxlist'                   => 'Benutzerliste',
     'mxmanageprod'             => 'Artikel verwalten',
     'mxmainmenu'               => 'Stammdaten',
-    'mxnews'                   => 'Nachrichten',
     'mxorders'                 => 'Bestellungen verwalten',
     'mxpaymeth'                => 'Zahlungsarten',
     'mxpricealarm'             => 'Preisalarm',

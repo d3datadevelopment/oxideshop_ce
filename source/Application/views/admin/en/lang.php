@@ -424,8 +424,8 @@ $aLang = [
     'ARTICLE_MAIN_MPN'                          => 'MPN',
     'ARTICLE_MAIN_MANUFACTURERID'               => 'Manufacturer',
     'HELP_ARTICLE_MAIN_PRICE'                   => 'This price is inherited to product\'s variants.' .
-                                                   '<ul><li>Depending on the shop settings net price or gross price is input/shown.</li>' .
-                                                   '<li>Gross price is always shown in parentheses.</li></ul>',
+        '<ul><li>Depending on the shop settings net price or gross price is input/shown.</li>' .
+        '<li>Gross price is always shown in parentheses.</li></ul>',
     'ARTICLE_OVERVIEW_ARTMADEON'                => 'Product created on',
     'ARTICLE_OVERVIEW_LASTCHANGE'               => 'Last Modification on',
     'ARTICLE_OVERVIEW_SALEPOSITION'             => 'Position Sales Rating ',
@@ -769,15 +769,6 @@ $aLang = [
     'NAVIGATION_HOME'                                => 'Home',
     'NAVIGATION_PAGE'                                => 'Page',
     'NAVIGATION_NEWVERSIONAVAILABLE'                 => 'Version %s is available.',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'NEWS_LIST_TITLE'                                => '[OXID News Administration]',
-    'NEWS_LIST_SHORTTEXT'                            => 'Title',
-    'NEWS_LIST_MENUITEM'                             => 'Customer Information',
-    'NEWS_LIST_MENUSUBITEM'                          => 'News',
-    'NEWS_MAIN_SHORTDESC'                            => 'Title',
-    'NEWS_MAIN_SHOWFORGROUP'                         => 'Visible for User Group',
-    'NEWS_MAIN_NOTSHOWFORGROUP'                      => 'Invisible for User Group',
-    // END deprecated
     'NAVIGATION_FAVORITES'                           => 'Favorites',
     'NAVIGATION_FAVORITES_EDIT'                      => '[ edit ]',
     'FAVORITES_DESC'                                 => 'favorites description ...',
@@ -1082,9 +1073,6 @@ $aLang = [
     'SHOP_CONFIG_CALCULATEVATOFORPAYCHARGE'                   => 'Display VAT contained in Payment Method Charges in Shopping Cart and Invoice',
     'SHOP_CONFIG_CALCPAYVATONTOP'                             => 'Enter Payment Method Charges as net Price (plus VAT)',
     'SHOP_CONFIG_CMSFOLDER'                                   => 'CMS Page Folders',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_CONFIG_CNTOFNEWS'                                   => 'Number of News which are displayed in the News Box',
-    // END deprecated
     'SHOP_CONFIG_DATEFORMAT'                                  => 'Date Format in eShop Admin',
     'SHOP_CONFIG_DELIVERYCOSTS'                               => 'Calculate default Shipping costs when User is not logged in yet',
     'SHOP_CONFIG_DEFAULTVAT'                                  => 'Default VAT for all Products',
@@ -1461,10 +1449,6 @@ $aLang = [
     'SHOP_PERF_LOADCATTREE'                   => 'Load Categories and display Category Navigation',
     'SHOP_PERF_LOADCURRENCY'                  => 'Display Currencies',
     'SHOP_PERF_LOADLANGUAGES'                 => 'Display Languages',
-    'SHOP_PERF_LOADNEWS'                      => 'Load News',
-    // @deprecated since v.5.3.0 (2016-06-17); The Admin Menu: Customer Info -> News feature will be moved to a module in v6.0.0
-    'SHOP_PERF_LOADNEWSONLYSTART'             => 'Load News only on Start Page',
-    // END deprecated
     'SHOP_PERF_LOADVARIANTS'                  => 'Load Variants in Lists (Search Results, Categories). This uses much Memory and may cause Performance Problems on small Servers',
     'SHOP_PERF_LOADMANUFACTURERTREE'          => 'Load and display Manufacturer List',
     'SHOP_PERF_NEWESTARTICLES'                => 'List of newest Products (Just arrived!)',
@@ -1527,7 +1511,6 @@ $aLang = [
     'mxlist'                   => 'List All Users',
     'mxmanageprod'             => 'Administer Products',
     'mxmainmenu'               => 'Master Settings',
-    'mxnews'                   => 'News',
     'mxorders'                 => 'Administer Orders',
     'mxpaymeth'                => 'Payment Methods',
     'mxpricealarm'             => 'Price Alert',
