@@ -3,6 +3,7 @@ imports:
     - { resource: Language/services.yaml }
     - { resource: ConfigFile/services.yaml }
     - { resource: Directory/services.yaml }
+    - { resource: Htaccess/services.yaml }
 
 services:
     _defaults:
