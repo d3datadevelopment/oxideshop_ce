@@ -42,7 +42,7 @@ final class ShopSetupCommandTest extends TestCase
 
     protected function setup(): void
     {
-        //$this->backupDatabase();
+        $this->backupDatabase();
         //$this->dropDatabase();
         $this->closeDatabaseConnection();
 
@@ -59,7 +59,7 @@ final class ShopSetupCommandTest extends TestCase
     protected function tearDown(): void
     {
         $this->restoreConfigFile();
-        //$this->restoreDatabase();
+        $this->restoreDatabase();
     }
 
     public function testSetup(): void
