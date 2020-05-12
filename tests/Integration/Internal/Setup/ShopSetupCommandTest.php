@@ -67,7 +67,7 @@ final class ShopSetupCommandTest extends TestCase
         $commandTester = new CommandTester($this->get(ShopSetupCommand::class));
         $commandTester->execute([
             'host'              => $this->host,
-            'dbname'            => $this->dbName,
+            'dbname'            => 'testShopSetup',//$this->dbName,
             'port'              => $this->port,
             'user'              => $this->user,
             'password'          => $this->password,
