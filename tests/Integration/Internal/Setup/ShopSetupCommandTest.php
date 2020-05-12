@@ -155,6 +155,8 @@ final class ShopSetupCommandTest extends TestCase
         $fileSystem->remove($configFilePath);
         $fileSystem->copy( $configFilePath . '.bak', $configFilePath);
         $fileSystem->remove($configFilePath . '.bak');
+
+        opcache_invalidate($configFilePath);
     }
 
     private function restoreDatabase(): void
