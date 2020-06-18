@@ -210,7 +210,7 @@ class ArticleExtend extends \OxidEsales\Eshop\Application\Controller\Admin\Admin
      */
     public function addDefaultValues($aParams)
     {
-        $aParams['oxarticles__oxexturl'] = str_replace("http://", "", $aParams['oxarticles__oxexturl']);
+        $aParams['oxarticles__oxexturl'] = preg_replace("@^http(s?):\/\/$@im", "", $aParams['oxarticles__oxexturl']);
 
         return $aParams;
     }
